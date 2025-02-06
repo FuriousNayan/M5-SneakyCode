@@ -6,7 +6,7 @@ function numOfVowels(word){
     let counter = 0
     for(let i = 0; i < word.length; i++){
         if (lst.includes(word[i])){
-            counter += 1;
+            counter += 2;
         }
     }
     return counter;
