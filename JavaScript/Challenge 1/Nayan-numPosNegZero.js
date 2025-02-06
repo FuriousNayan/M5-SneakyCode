@@ -1,9 +1,9 @@
-let userInput = prompt("Please enter a number: ")
+let userInput2 = prompt("Please enter a number to check if its negative or not: ")
 
-if (userInput > 0) {
-    console.log(`${userInput} is a positive number`)
-} else if (userInput < 0) {
-    console.log(`${userInput} is a negative number`)
+if (userInput2 > 0) {
+    console.log(`${userInput2} is a positive number`)
+} else if (userInput2 < 0) {
+    console.log(`${userInput2} is a negative number`)
 } else{
-    console.log(`${userInput} is zero`)
+    console.log(`${userInput2} is zero`)
 }
